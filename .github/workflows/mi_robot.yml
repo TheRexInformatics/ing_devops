@@ -1,0 +1,10 @@
+name: mi primer robot
+
+on: [push]
+
+jobs:
+  saludo:
+    run-on: ubuntu-latest
+    steps: 
+      - name: saludando
+        run: echo "Hola Mundo!"
